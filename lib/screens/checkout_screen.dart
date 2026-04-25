@@ -502,7 +502,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
             color: Colors.transparent,
             child: InkWell(
               onTap: () {
-                Navigator.pushReplacementNamed(context, '/order_success');
+                Navigator.pushReplacementNamed(context, '/success');
               },
               borderRadius: BorderRadius.circular(999),
               child: Row(

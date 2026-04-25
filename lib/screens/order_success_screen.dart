@@ -237,7 +237,7 @@ class OrderSuccessScreen extends StatelessWidget {
               height: 56,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.pushReplacementNamed(context, '/track_order');
+                  Navigator.pushReplacementNamed(context, '/track');
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: AppColors.onSecondaryFixed,
