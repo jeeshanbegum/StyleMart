@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>StyleMart | Rosé Atelier</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Manrope:wght@300;400;600;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary": "#7c5542",
+                    "on-primary-fixed-variant": "#574144",
+                    "error": "#ba1a1a",
+                    "on-error-container": "#93000a",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary": "#8c4b55",
+                    "on-primary-fixed": "#281719",
+                    "on-secondary": "#ffffff",
+                    "surface-container-highest": "#e2e2e2",
+                    "surface-bright": "#f9f9f9",
+                    "error-container": "#ffdad6",
+                    "tertiary-fixed-dim": "#eebca3",
+                    "secondary-container": "#feaab6",
+                    "primary-container": "#fadadd",
+                    "surface": "#f9f9f9",
+                    "surface-container-low": "#f3f3f3",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-container": "#825b47",
+                    "on-background": "#1a1c1c",
+                    "on-tertiary": "#ffffff",
+                    "on-surface-variant": "#4f4445",
+                    "surface-container-high": "#e8e8e8",
+                    "inverse-surface": "#2f3131",
+                    "on-secondary-container": "#7a3c46",
+                    "primary": "#70585b",
+                    "surface-tint": "#70585b",
+                    "on-surface": "#1a1c1c",
+                    "on-secondary-fixed-variant": "#70343e",
+                    "outline-variant": "#d2c3c4",
+                    "primary-fixed": "#fbdbde",
+                    "secondary-fixed-dim": "#ffb2bc",
+                    "on-tertiary-fixed": "#2f1406",
+                    "on-tertiary-fixed-variant": "#623e2c",
+                    "surface-dim": "#dadada",
+                    "tertiary-container": "#ffdac9",
+                    "primary-fixed-dim": "#debfc2",
+                    "surface-variant": "#e2e2e2",
+                    "background": "#f9f9f9",
+                    "inverse-primary": "#debfc2",
+                    "outline": "#807475",
+                    "surface-container": "#eeeeee",
+                    "on-error": "#ffffff",
+                    "tertiary-fixed": "#ffdbcb",
+                    "inverse-on-surface": "#f1f1f1",
+                    "secondary-fixed": "#ffd9dd",
+                    "on-primary-container": "#765e61",
+                    "on-secondary-fixed": "#3a0915"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Noto Serif"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24
+    }
+.silk-texture {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuDioEbHQhkiqR7m7222Vfk9pcv63nf4Esh1TZv1SjO49eJF-z22iXluTFf1UFbBZ6yqqLGSALwy18rQM-FEgLesSwZZpRBcrmwJdR8n_ZJRz-28GzDucXz19IHWK_gIBCvcHuqn6Y_I7kTIHfQh80kg3hT5miapl9yeAHXzJhWiwooekwkiO6ZxrcZ6Ndawb7CjTlyBfB9kIwwAm3mr9bppMEV2_vD9SrRg6K37giDdZEQHVZh3DEttRUy_AhoiQiW5pO9K9Xx5tw)
+    }
+.rose-gold-gradient {
+    background: linear-gradient(135deg, #70585b 0%, #8c4b55 50%, #fadadd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+    }
+.glass-panel {
+    backdrop-filter: blur(16px);
+    background: rgba(255, 255, 255, 0.4)
+    }
+.letter-spacing-custom {
+    letter-spacing: 0.2em
+    }</style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface font-body text-on-surface overflow-hidden">
+<!-- Splash Screen Container -->
+<main class="relative h-screen w-screen flex flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-surface via-primary-container/30 to-secondary-fixed/20">
+<!-- Subtle Silk Texture Overlay -->
+<div class="absolute inset-0 silk-texture opacity-10 pointer-events-none"></div>
+<!-- Abstract Decorative Layers (Editorial Reveal) -->
+<div class="absolute top-[-10%] right-[-10%] w-[500px] h-[500px] bg-primary-fixed/30 rounded-full blur-[80px]"></div>
+<div class="absolute bottom-[-5%] left-[-5%] w-[400px] h-[400px] bg-secondary-fixed/20 rounded-full blur-[100px]"></div>
+<!-- Center Content -->
+<div class="relative z-10 flex flex-col items-center text-center space-y-12">
+<!-- Logo Section -->
+<div class="relative">
+<!-- Outer Decorative Ring -->
+<div class="absolute inset-0 -m-8 rounded-full border border-primary/10 animate-pulse"></div>
+<!-- Main Logo Mark -->
+<div class="w-32 h-32 flex items-center justify-center rounded-full bg-white shadow-[0_24px_48px_rgba(112,88,91,0.12)]">
+<span class="font-headline text-7xl font-bold italic rose-gold-gradient leading-none">S</span>
+</div>
+</div>
+<!-- Brand Identity -->
+<div class="space-y-4">
+<h1 class="font-headline text-5xl md:text-6xl font-bold tracking-tight text-primary">
+                    StyleMart
+                </h1>
+<p class="font-body text-lg italic font-light tracking-widest text-on-primary-container opacity-80">
+                    Style is who you are
+                </p>
+</div>
+<!-- Progress/Loading Indicator (Minimalist) -->
+<div class="pt-12">
+<div class="w-48 h-[1px] bg-outline-variant/30 relative overflow-hidden">
+<div class="absolute inset-0 w-1/3 bg-primary/40 translate-x-full"></div>
+</div>
+<div class="mt-6">
+<span class="font-label text-[10px] uppercase tracking-[0.3em] text-outline">
+                        Collections 2024
+                    </span>
+</div>
+</div>
+</div>
+<!-- Bottom Visual Anchor (Editorial Reveal Element) -->
+<div class="absolute bottom-12 w-full px-8 md:px-24 flex justify-between items-end">
+<div class="hidden md:block">
+<p class="font-headline text-4xl text-primary/10 italic">Atelier</p>
+</div>
+<!-- Contextual CTA for entry (Hidden in pure splash, but ready for UX) -->
+<div class="flex flex-col items-end space-y-4">
+<div class="h-16 w-16 rounded-full border border-primary/20 flex items-center justify-center text-primary group cursor-pointer hover:bg-primary hover:text-white transition-all duration-500">
+<span class="material-symbols-outlined text-2xl">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Decorative Image Snippet (Editorial Style) -->
+<div class="absolute top-24 left-12 w-32 h-48 rounded-xl overflow-hidden shadow-2xl rotate-[-6deg] hidden lg:block outline-variant opacity-80">
+<img alt="Elegant silk fabric draped over a minimalist chair in a high-end fashion atelier, soft natural lighting" class="w-full h-full object-cover" data-alt="Elegant silk fabric draped over a minimalist chair in a high-end fashion atelier, soft natural lighting and rose gold tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAhhtCuu0m1DRMSzx_lxq-2Jya9FD1SCcwXqTpvEh0HrHVh0LwJrki3dAtPrzp4mCTSv9WDvtw6VxWotoNptEbokeHr9PXxPJ23PBMsfxUZVJpifGDXs408E9W_PorYqs2gLu3mvo_LfhYpqi-f6c19c-gOuCPiDVMP3IjmG3gHVipmw4kz694tg8hHiFoUIDpRTDr6XTdQ2oN_SeoHGdtcKbvnp4p8EM7_mhpVy2-q_sMDj3NJyo9DdNjya-i2RBlkDKdvp9NPw"/>
+</div>
+<div class="absolute bottom-32 right-12 w-40 h-56 rounded-xl overflow-hidden shadow-2xl rotate-[4deg] hidden lg:block outline-variant opacity-80">
+<img alt="Close-up of a high-end designer handbag with rose gold hardware sitting on a white marble surface" class="w-full h-full object-cover" data-alt="Close-up of a high-end designer handbag with rose gold hardware sitting on a white marble surface with warm ambient lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRx3qgdKPqhYPFQtwkF3fwZu7fdEcVchBTarCAXdZGags_aA6FRLP2AAWcGjmIHiF8NE9SR7-TM2QhKzHGx3OINmsGZgD_HA8Q4j_lI1AIr4SJq3OlsDrBPCU7ancnUgv9fxR9NFyxhp6BNt5I9chH1VDhGfJtuwL8RMZRQJXsIw59OopWhJR-buCMwhNUoBzOTZo6rPzoxcmiVr2CwKjGFsPmuRjA0iRwmq8HDDP3e0gsMCutMWFqtswi-f0HRZJPTRscu4ICOg"/>
+</div>
+</main>
+<!-- Footer Copyright/Metadata -->
+<footer class="fixed bottom-6 w-full text-center z-20">
+<span class="font-label text-[10px] uppercase tracking-widest text-outline/50">
+            © 2024 StyleMart Global Atelier. All rights reserved.
+        </span>
+</footer>
+</body></html>

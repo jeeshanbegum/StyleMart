@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Poppins:wght@400;700;900&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-surface-variant": "#4d4637",
+                    "inverse-surface": "#313030",
+                    "primary-container": "#c9a84c",
+                    "error": "#ba1a1a",
+                    "secondary-container": "#e2e0fc",
+                    "primary": "#755b00",
+                    "on-tertiary-fixed-variant": "#464747",
+                    "error-container": "#ffdad6",
+                    "primary-fixed-dim": "#e6c364",
+                    "on-error": "#ffffff",
+                    "surface-bright": "#fcf9f8",
+                    "secondary-fixed": "#e2e0fc",
+                    "surface-container-highest": "#e5e2e1",
+                    "surface-container-low": "#f6f3f2",
+                    "primary-fixed": "#ffe08f",
+                    "tertiary-fixed": "#e3e2e2",
+                    "on-primary-fixed-variant": "#584400",
+                    "tertiary-fixed-dim": "#c7c6c6",
+                    "surface-variant": "#e5e2e1",
+                    "on-secondary": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "surface": "#fcf9f8",
+                    "on-tertiary-fixed": "#1b1c1c",
+                    "tertiary-container": "#acabab",
+                    "on-secondary-container": "#63627a",
+                    "secondary-fixed-dim": "#c6c4df",
+                    "outline-variant": "#d0c5b2",
+                    "on-secondary-fixed": "#1a1a2e",
+                    "inverse-primary": "#e6c364",
+                    "background": "#fcf9f8",
+                    "surface-container": "#f0eded",
+                    "surface-tint": "#755b00",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary-fixed-variant": "#45455b",
+                    "tertiary": "#5e5e5e",
+                    "on-surface": "#1c1b1b",
+                    "on-primary": "#ffffff",
+                    "inverse-on-surface": "#f3f0ef",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container-high": "#eae7e7",
+                    "on-primary-fixed": "#241a00",
+                    "on-primary-container": "#503d00",
+                    "outline": "#7e7665",
+                    "on-tertiary-container": "#3f4040",
+                    "on-background": "#1c1b1b",
+                    "surface-dim": "#dcd9d9",
+                    "secondary": "#5d5c74"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            -webkit-tap-highlight-color: transparent;
+            font-family: 'Inter', sans-serif;
+        }
+        body {
+          min-height: max(884px, 100dvh);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface flex flex-col min-h-screen items-center overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="w-full top-0 sticky z-50 bg-[#FCF9F8] dark:bg-stone-950">
+<div class="flex items-center justify-between px-6 py-4 w-full">
+<button class="active:scale-95 transition-transform" style="">
+<span class="material-symbols-outlined text-[#C9A84C]" style="">menu</span>
+</button>
+<h1 class="text-2xl font-['Poppins'] font-bold text-[#1C1B1B] dark:text-stone-100 tracking-tighter" style=""><h1 class="text-xl font-bold tracking-[0.3em] text-[#1A1A2E] dark:text-stone-100 font-headline cursor-text" data-stitch-added-classes="cursor-text" spellcheck="false" style="--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-size: 1.25rem; line-height: 1.75rem; --tw-text-opacity: 1; color: rgb(26, 26, 46); background-color: rgba(252, 249, 248, 0.8); outline: none !important;">StyleMart</h1></h1>
+<button class="active:scale-95 transition-transform" style="">
+<span class="material-symbols-outlined text-[#C9A84C]" style="">shopping_bag</span>
+</button>
+</div>
+<div class="bg-[#F0EDED] dark:bg-stone-900 h-[1px]"></div>
+</header>
+<!-- Content Canvas -->
+<main class="w-full max-w-[393px] px-6 pb-32 pt-4">
+<!-- Editorial Hero Section -->
+<section class="relative w-full aspect-[4/5] rounded-[2rem] overflow-hidden mb-10 group">
+<img alt="Hero Footwear" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/ADBb0uiKZDhYyAKnzF0rgw_4Z297a5P87VAcRLZcTeVRQlESuaGBiggshYVLonz9RLCpHgLKZ8-dylC87aHTdx0imiUnunL_H1wp9qD5DxD72RZnOUBLiFikZOGi7F4Qx6GRxPrXkTM2CBzkuhLOe7Ydvyb2Az4-9hJiSZ8Mlp1tVdNcxfySrdkoV0vS0z4EY7ZpvmWBXWuNP6IIZzscYweEP4S1sNgCK3Jeef4SUzUxDRUs8KgSfAVWiO37IqlZznWucTwLsDl-9e4" style=""/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-secondary-fixed/80 via-on-secondary-fixed/20 to-transparent"></div>
+<div class="absolute bottom-8 left-8 right-8">
+<p class="font-label text-surface tracking-[0.3em] uppercase text-[10px] mb-2 opacity-90" style="">Curated Collection</p>
+<h2 class="font-headline font-bold text-4xl text-surface tracking-tighter leading-none mb-6" style="">The Footwear Edit</h2>
+</div>
+</section>
+<!-- Section Title -->
+<div class="flex items-end justify-between mb-8 pr-2">
+<div>
+<h3 class="font-headline font-extrabold text-2xl text-on-secondary-fixed tracking-tight" style="">New Arrivals</h3>
+<div class="h-1 w-8 bg-primary-container mt-1 rounded-full"></div>
+</div>
+<span class="font-label text-xs font-semibold text-primary tracking-wider uppercase" style=""><br/></span>
+</div>
+<!-- 2-Column Product Grid -->
+<div class="grid grid-cols-2 gap-x-5 gap-y-10">
+<!-- Card 1: Platform Sneakers -->
+<div class="flex flex-col group">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden bg-surface-container-low mb-4">
+<img alt="Platform Sneakers" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUqXjqn_VbWITUWvQIl3m923mqWGelu9pM5u5K9jTi8rdi89Rt7z5hjXGUG9ls4rY0ClAjMGVvjSCAF8BRsCs3QSeI-Y7L0uLslW5oSiGXdQfsv7aAkyu3tPARUL6B8ui70haxyIUZYDMIQdPEI7JaTmLVy8SQuIeRn8rYnZxs0CXhhUBcJVYzIOey5D0Pl3xUNi_I6FbzeggutiC07WG3bYPQel_sFXv4zmdRcyixYM8NoMSgUXb7z9b6lWfurwNHF_ku06JAzA" style=""/>
+<button class="absolute top-4 right-4 w-8 h-8 rounded-full bg-surface/80 backdrop-blur-md flex items-center justify-center text-primary active:scale-90 transition-all" style="">
+<span class="material-symbols-outlined text-[18px]" style="">favorite</span>
+</button>
+</div>
+<h4 class="font-body font-semibold text-on-surface text-sm leading-tight mb-1" style="">Platform Sneakers</h4>
+<p class="font-headline font-bold text-primary-container text-base" style="">$120.00</p>
+</div>
+<!-- Card 2: Rose Gold Sandals -->
+<div class="flex flex-col group">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden bg-surface-container-low mb-4">
+<img alt="Rose Gold Sandals" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQyNu2wbmYl89iLvjo8lfKtCjkuBHzAQY5MLv_XQ0frCsTN3IF0vuwddO0LS5gSIJEaEAzTXqUZCkLQ7QtiMqdhORSqsq1EX-5ds3xz_A05lmiEd4APzJbxYCvD9qTWU1u97_VA6e6MbOy2QSw8xbDAx-6Kwq7b53FWtEfQx1mOykXjFBVytWwmS1fNOjhsyrDEhT_4v5mVKnIAB6Ao-IwnNJcoO02bQlHFoC85PA7Rj9tQCT3qEuI-pSn0AGkSN9EJOSQVo47YA" style=""/>
+<button class="absolute top-4 right-4 w-8 h-8 rounded-full bg-surface/80 backdrop-blur-md flex items-center justify-center text-primary active:scale-90 transition-all" style="">
+<span class="material-symbols-outlined text-[18px]" style="">favorite</span>
+</button>
+</div>
+<h4 class="font-body font-semibold text-on-surface text-sm leading-tight mb-1" style="">Rose Gold Sandals</h4>
+<p class="font-headline font-bold text-primary-container text-base" style="">$145.00</p>
+</div>
+<!-- Card 3: Pink Ballet Flats -->
+<div class="flex flex-col group">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden bg-surface-container-low mb-4">
+<img alt="Pink Ballet Flats" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJa775lBNiXFZ-H1nScaaVwFw4AlenaRL0k0SD_BZb50nM4dTucuD7OLFJA9UIuU74LSk6zmegqS4aVVJjAUW1AGlAwGC82WUOJ5SkVG_iHbMOPxeNcJrMhhJolxcsn9_NzAfRjRVaT3Ljtwe8zwzT-Qw4YAwIQb_FpxABrDOULaP6mJgKDASR8qerEgUguJsCjB58wDwZqlna5CF075AuW_5MBA0ZhatmtmO4Suc4CdpTjl6e72qOWAXlF4rwyZ73Kr96kGbYSQ" style=""/>
+<button class="absolute top-4 right-4 w-8 h-8 rounded-full bg-surface/80 backdrop-blur-md flex items-center justify-center text-primary active:scale-90 transition-all" style="">
+<span class="material-symbols-outlined text-[18px]" style="">favorite</span>
+</button>
+</div>
+<h4 class="font-body font-semibold text-on-surface text-sm leading-tight mb-1" style="">Pink Ballet Flats</h4>
+<p class="font-headline font-bold text-primary-container text-base" style="">$95.00</p>
+</div>
+<!-- Card 4: Floral Slip-ons -->
+<div class="flex flex-col group">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden bg-surface-container-low mb-4">
+<img alt="Floral Slip-ons" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbjwX5Fh7O0VCcWZJNFS59V-fN16yAoJnzKUay33cGBsytIritkkKxRcC7GRA5wLE1bRtcudsrxPh05eBnz6TrCKq4Y4HgFZkd-LapX-JMOWDnqQL1XCkuVu9j5pE2RxxFN80ZxkxmANUYTgzzcRaRYQvAQkWFhW7_Blxfrvl-DjXyd5EuObz8yBeE-M1uWLgv4NTMgQIVMMWfeLpyrL_6227xBVMA47ONikNUmb_yctTI4Kf7f2xiSwNqh7jZ7r8WOvH9h6ZHEA" style=""/>
+<button class="absolute top-4 right-4 w-8 h-8 rounded-full bg-surface/80 backdrop-blur-md flex items-center justify-center text-primary active:scale-90 transition-all" style="">
+<span class="material-symbols-outlined text-[18px]" style="">favorite</span>
+</button>
+</div>
+<h4 class="font-body font-semibold text-on-surface text-sm leading-tight mb-1" style="">Floral Slip-ons</h4>
+<p class="font-headline font-bold text-primary-container text-base" style="">$85.00</p>
+</div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pt-3 pb-6 bg-[#FCF9F8]/80 dark:bg-stone-950/80 backdrop-blur-xl z-50 rounded-t-3xl shadow-[0_-4px_40px_rgba(28,27,27,0.04)]">
+<button class="flex flex-col items-center justify-center text-[#C9A84C] bg-[#F0EDED] dark:bg-stone-800 rounded-2xl px-4 py-1.5 active:scale-90 transition-all duration-200" style="">
+<span class="material-symbols-outlined" style='font-variation-settings: "FILL" 1;'>home</span>
+<span class="font-['Inter'] text-[10px] font-medium tracking-widest uppercase mt-1" style="">Home</span>
+</button>
+<button class="flex flex-col items-center justify-center text-[#5E5E5E] dark:text-stone-500 hover:text-[#C9A84C] transition-colors active:scale-90 transition-all duration-200" style="">
+<span class="material-symbols-outlined" style="">search</span>
+<span class="font-['Inter'] text-[10px] font-medium tracking-widest uppercase mt-1" style="">Shop</span>
+</button>
+<button class="flex flex-col items-center justify-center text-[#5E5E5E] dark:text-stone-500 hover:text-[#C9A84C] transition-colors active:scale-90 transition-all duration-200" style="">
+<span class="material-symbols-outlined" style="">favorite</span>
+<span class="font-['Inter'] text-[10px] font-medium tracking-widest uppercase mt-1" style="">Favorites</span>
+</button>
+<button class="flex flex-col items-center justify-center text-[#5E5E5E] dark:text-stone-500 hover:text-[#C9A84C] transition-colors active:scale-90 transition-all duration-200" style="">
+<span class="material-symbols-outlined" style="">person</span>
+<span class="font-['Inter'] text-[10px] font-medium tracking-widest uppercase mt-1" style="">Profile</span>
+</button>
+</nav>
+</body></html>

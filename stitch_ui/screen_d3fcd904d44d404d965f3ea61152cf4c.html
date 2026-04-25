@@ -1,0 +1,259 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>StyleMart - Track Order</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#ffffff",
+                        "surface": "#fcf9f8",
+                        "surface-container-highest": "#e5e2e1",
+                        "surface-container-high": "#eae7e7",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed-dim": "#e6c364",
+                        "primary-fixed": "#ffe08f",
+                        "on-primary-fixed": "#241a00",
+                        "secondary-container": "#e2e0fc",
+                        "secondary": "#5d5c74",
+                        "surface-dim": "#dcd9d9",
+                        "on-error-container": "#93000a",
+                        "inverse-primary": "#e6c364",
+                        "background": "#fcf9f8",
+                        "on-primary": "#ffffff",
+                        "surface-variant": "#e5e2e1",
+                        "on-tertiary": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "secondary-fixed": "#e2e0fc",
+                        "on-secondary-fixed": "#1a1a2e",
+                        "on-surface-variant": "#4d4637",
+                        "on-tertiary-container": "#3f4040",
+                        "tertiary-container": "#acabab",
+                        "tertiary-fixed-dim": "#c7c6c6",
+                        "on-tertiary-fixed-variant": "#464747",
+                        "on-surface": "#1c1b1b",
+                        "on-secondary-container": "#63627a",
+                        "inverse-surface": "#313030",
+                        "tertiary": "#5e5e5e",
+                        "surface-container-low": "#f6f3f2",
+                        "on-primary-container": "#503d00",
+                        "on-background": "#1c1b1b",
+                        "primary-container": "#c9a84c",
+                        "secondary-fixed-dim": "#c6c4df",
+                        "outline": "#7e7665",
+                        "inverse-on-surface": "#f3f0ef",
+                        "error": "#ba1a1a",
+                        "surface-tint": "#755b00",
+                        "surface-bright": "#fcf9f8",
+                        "primary": "#755b00",
+                        "tertiary-fixed": "#e3e2e2",
+                        "on-tertiary-fixed": "#1b1c1c",
+                        "on-primary-fixed-variant": "#584400",
+                        "error-container": "#ffdad6",
+                        "outline-variant": "#d0c5b2",
+                        "surface-container": "#f0eded",
+                        "on-secondary-fixed-variant": "#45455b"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Poppins", "Plus Jakarta Sans"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                },
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #fcf9f8;
+            color: #1c1b1b;
+            font-family: 'Inter', sans-serif;
+        }
+        .editorial-shadow {
+            box-shadow: 0 40px 60px -15px rgba(28, 27, 27, 0.04);
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-surface selection:bg-primary-container selection:text-on-primary-fixed">
+<!-- Top Navigation -->
+<header class="fixed top-0 left-0 w-full z-50 bg-[#FCF9F8] dark:bg-stone-950 flex justify-between items-center px-6 py-4 transition-colors">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#C9A84C] cursor-pointer" data-icon="arrow_back" style="">arrow_back</span>
+<h1 class="font-['Poppins'] font-bold tracking-tight text-xl text-[#1A1A2E]" style="">Track Order</h1>
+</div>
+<div class="flex items-center">
+<span class="material-symbols-outlined text-[#5E5E5E]" data-icon="shopping_bag" style="">shopping_bag</span>
+</div>
+</header>
+<main class="pt-20 pb-28 px-6 max-w-lg mx-auto">
+<!-- Order Identity Header -->
+<section class="mb-8">
+<div class="flex justify-between items-end mb-2">
+<div>
+<p class="text-[10px] uppercase tracking-[0.2em] text-tertiary font-medium mb-1" style="">Order ID</p>
+<h2 class="font-headline font-bold text-2xl text-on-secondary-fixed" style="">#STM-8824</h2>
+</div>
+</div>
+<p class="text-tertiary text-sm" style="">Estimated delivery by 6:00 PM today</p>
+</section>
+<!-- Map Visualization (Asymmetric Frame) -->
+<section class="mb-10 relative overflow-hidden rounded-[2rem] editorial-shadow h-64 bg-surface-container">
+<img class="w-full h-full object-cover grayscale opacity-80" data-alt="Modern minimalist map of Mayfair London with a gold delivery route path and stylized navy pins" data-location="London" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMUecgrI9y0TP6ieEkcog1Icjk2p51ftiFYvvPMg_vPv5A8EKo5TQLfBGHCBB-46o_PvJgVAHk80M3tbcW0vi0LVM1yFkA3If661Yvj104ZzqaJu8EHqaiKF03mF4jHpL8YwBE0QvfelfmQPgXonl-jx18CA3bg6BXmOfnW0fn-03MPL9AmHdbhpS-YtjP72mdM6JNNrGTzID4ybm0l7M8IFBEEMVFCmuW4nUAcREI8yWlHE7gemDzD2Ha7JgfKW1Z0pTSkE2SyA" style="">
+<!-- Floating Map UI Overlays -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-highest/40 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 flex justify-between items-center">
+<div class="bg-surface-container-lowest/90 backdrop-blur-md p-3 rounded-2xl flex items-center gap-3 editorial-shadow">
+<div class="w-10 h-10 rounded-full bg-on-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-surface text-lg" data-icon="local_shipping" style="">local_shipping</span>
+</div>
+<div>
+<p class="text-[10px] uppercase font-bold text-tertiary tracking-tighter" style="">Courier</p>
+<p class="text-xs font-bold text-on-secondary-fixed" style="">StyleMart Express</p>
+</div>
+</div>
+<button class="w-12 h-12 bg-primary-container text-on-primary-fixed rounded-full flex items-center justify-center editorial-shadow transition-transform active:scale-95" style="">
+<span class="material-symbols-outlined" data-icon="call" style="">call</span>
+</button>
+</div>
+</section>
+<!-- Progress Timeline (Vertical Editorial) -->
+<section class="mb-12 px-2">
+<h3 class="text-[10px] uppercase tracking-[0.3em] text-tertiary font-bold mb-8" style="">Delivery Progress</h3>
+<div class="space-y-0">
+<!-- Step 1: Placed -->
+<div class="relative pl-10 pb-8 group">
+<div class="absolute left-[3px] top-0 bottom-0 w-[2px] bg-primary-container/20"></div>
+<div class="absolute left-0 top-1 w-2 h-2 rounded-full bg-primary-container ring-4 ring-primary-container/20"></div>
+<div>
+<div class="flex justify-between items-center mb-1">
+<h4 class="font-bold text-on-secondary-fixed text-sm" style="">Order Placed</h4>
+<span class="text-[10px] font-medium text-tertiary" style="">Oct 20, 10:45 AM</span>
+</div>
+<p class="text-xs text-tertiary leading-relaxed" style="">Your order has been confirmed and is being prepared at our atelier.</p>
+</div>
+</div>
+<!-- Step 2: Shipped -->
+<div class="relative pl-10 pb-8 group">
+<div class="absolute left-[3px] top-0 bottom-0 w-[2px] bg-primary-container/20"></div>
+<div class="absolute left-0 top-1 w-2 h-2 rounded-full bg-primary-container ring-4 ring-primary-container/20"></div>
+<div>
+<div class="flex justify-between items-center mb-1">
+<h4 class="font-bold text-on-secondary-fixed text-sm" style="">Shipped</h4>
+<span class="text-[10px] font-medium text-tertiary" style="">Oct 21, 02:15 PM</span>
+</div>
+<p class="text-xs text-tertiary leading-relaxed" style="">Package departed from our London distribution center.</p>
+</div>
+</div>
+<!-- Step 3: Out for Delivery (Active) -->
+<div class="relative pl-10 pb-8 group">
+<div class="absolute left-[3px] top-0 bottom-0 w-[2px] bg-surface-container-highest"></div>
+<div class="absolute left-0 top-1 w-2 h-2 rounded-full bg-primary-container ring-8 ring-primary-container/10"></div>
+<div>
+<div class="flex justify-between items-center mb-1">
+<h4 class="font-bold text-primary text-sm" style="">Out for Delivery</h4>
+<span class="text-[10px] font-bold text-primary" style="">Oct 24, 08:30 AM</span>
+</div>
+<p class="text-xs text-on-surface leading-relaxed" style="">Your courier is currently 1.2 miles away in Mayfair.</p>
+</div>
+</div>
+<!-- Step 4: Pending -->
+<div class="relative pl-10 group">
+<div class="absolute left-0 top-1 w-2 h-2 rounded-full bg-surface-container-highest"></div>
+<div>
+<div class="flex justify-between items-center mb-1">
+<h4 class="font-bold text-tertiary/40 text-sm" style="">Estimated Delivery</h4>
+<span class="text-[10px] font-medium text-tertiary/40" style="">Pending</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shipping Details (Tonal Block) -->
+<section class="bg-surface-container-low rounded-3xl p-6 mb-10">
+<h3 class="text-[10px] uppercase tracking-[0.2em] text-tertiary font-bold mb-4" style="">Shipping Address</h3>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary-container" data-icon="location_on" style="">location_on</span>
+<div>
+<p class="font-bold text-on-secondary-fixed mb-1" style="">Julianne Sterling</p>
+<p class="text-sm text-tertiary leading-relaxed" style="">24 Savile Row, Mayfair<br>London, W1S 3PR</p>
+</div>
+</div>
+</section>
+<!-- Shipment Items (Editorial Grid) -->
+<section class="mb-10 px-2">
+<h3 class="text-[10px] uppercase tracking-[0.2em] text-tertiary font-bold mb-6" style="">Shipment Content</h3>
+<div class="space-y-6">
+<!-- Item 1 -->
+<div class="flex items-center gap-4">
+<div class="w-16 h-20 bg-surface-container rounded-xl overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Premium minimalist white cotton t-shirt neatly folded on a neutral stone background with soft editorial lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7zE2xwa8gfwAVZUQU4hiQ_7cgu8xRURjZ0VAAjJnyytGOEUOmqEwj3rSPXTC-ZudZP7LlETYkUvzQyPoSLMRYxNA8Dog5mB8BkEZ6BW0iE0U_QV-jskBFZf8GjpsrErv151vs2AqxVimk6DaMueYulBgMzOwvyK7CoSTe_00zNIjtzhMCpBbYjHBsxXqGJOW6fgEQzi9Piy5m2bh6hFgJRr_-wHEynz0qmpaYyKhzmZB-ZsBGQsZ-jJwV4nTRGg1vypcYVKjUUA" style="">
+</div>
+<div class="flex-grow">
+<h4 class="font-bold text-on-secondary-fixed text-sm" style="">Classic White T-Shirt</h4>
+<p class="text-xs text-tertiary" style="">Size: M | Qty: 1</p>
+</div>
+<p class="font-bold text-on-secondary-fixed text-sm" style="">$85.00</p>
+</div>
+<!-- Item 2 -->
+<div class="flex items-center gap-4">
+<div class="w-16 h-20 bg-surface-container rounded-xl overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Dark raw indigo denim jeans showing detailed texture and orange stitching against a warm gallery white backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtx8MvwvoOLHxM795u29j4alnkd1Z8pZoO4nu3TjTHevnjY496Huf8Mf7aYACpmE0rAn4Vo9IUDdfBUfMrTxsE7KDu4qj8r09xYZnM3bWRW4B8_d6oYOGyvLN5Z9l0rVCdMFue23w4VQQuq3qlzyZC8l33EhPrKCTeZoFzojeYHN74st88hwS_87VLmx5KGWGXPXb5KoCzmKvbB7mw0EaBPAokxJIpcHubs5p0q-XV6iaPPmvQe8Uywnm5epMOFWvMWP5wfwRwsQ" style="">
+</div>
+<div class="flex-grow">
+<h4 class="font-bold text-on-secondary-fixed text-sm" style="">Straight Cut Raw Denim</h4>
+<p class="text-xs text-tertiary" style="">Size: 32 | Qty: 1</p>
+</div>
+<p class="font-bold text-on-secondary-fixed text-sm" style="">$145.00</p>
+</div>
+</div>
+<!-- Total Block -->
+<div class="mt-8 pt-6 border-t border-surface-container-highest flex justify-between items-center">
+<span class="text-tertiary font-medium" style="">Order Total</span>
+<span class="text-xl font-headline font-bold text-on-secondary-fixed" style="">$230.00</span>
+</div>
+</section>
+<!-- Help Action -->
+</main>
+<!-- Bottom Navigation Bar (Contextual: Orders Active) -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-8 pt-3 bg-[#FCF9F8]/80 dark:bg-stone-950/80 backdrop-blur-xl rounded-t-3xl shadow-[0_-4px_40px_rgba(28,27,27,0.04)]">
+<div class="flex flex-col items-center justify-center text-[#5E5E5E] group cursor-pointer transition-all active:scale-90">
+<span class="material-symbols-outlined text-2xl mb-1" data-icon="storefront" style="">storefront</span>
+<span class="font-['Inter'] text-[10px] uppercase tracking-wider" style="">Shop</span>
+</div>
+<div class="flex flex-col items-center justify-center bg-[#C9A84C] text-[#241A00] rounded-full px-5 py-2 group cursor-pointer transition-all active:scale-90">
+<span class="material-symbols-outlined text-2xl" data-icon="local_shipping" style="font-variation-settings: &quot;FILL&quot; 1;">local_shipping</span>
+<span class="font-['Inter'] text-[10px] uppercase tracking-wider font-bold" style="">Orders</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#5E5E5E] group cursor-pointer transition-all active:scale-90">
+<span class="material-symbols-outlined text-2xl mb-1" data-icon="shopping_basket" style="">shopping_basket</span>
+<span class="font-['Inter'] text-[10px] uppercase tracking-wider" style="">Bag</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#5E5E5E] group cursor-pointer transition-all active:scale-90">
+<span class="material-symbols-outlined text-2xl mb-1" data-icon="person" style="">person</span>
+<span class="font-['Inter'] text-[10px] uppercase tracking-wider" style="">Profile</span>
+</div>
+</nav>
+</body></html>

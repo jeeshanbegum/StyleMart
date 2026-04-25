@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Order Confirmed - StyleMart</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-tertiary": "#ffffff",
+                      "on-primary": "#ffffff",
+                      "on-secondary-container": "#63627a",
+                      "surface-variant": "#e5e2e1",
+                      "outline-variant": "#d0c5b2",
+                      "on-surface": "#1c1b1b",
+                      "on-tertiary-container": "#3f4040",
+                      "inverse-surface": "#313030",
+                      "surface-dim": "#dcd9d9",
+                      "primary": "#755b00",
+                      "secondary-fixed": "#e2e0fc",
+                      "on-background": "#1c1b1b",
+                      "inverse-primary": "#e6c364",
+                      "on-tertiary-fixed": "#1b1c1c",
+                      "surface-container-high": "#eae7e7",
+                      "secondary-fixed-dim": "#c6c4df",
+                      "secondary-container": "#e2e0fc",
+                      "on-error": "#ffffff",
+                      "tertiary": "#5e5e5e",
+                      "surface-container-lowest": "#ffffff",
+                      "on-secondary": "#ffffff",
+                      "primary-container": "#c9a84c",
+                      "surface-container": "#f0eded",
+                      "primary-fixed": "#ffe08f",
+                      "on-error-container": "#93000a",
+                      "tertiary-fixed-dim": "#c7c6c6",
+                      "secondary": "#5d5c74",
+                      "on-secondary-fixed-variant": "#45455b",
+                      "on-primary-fixed-variant": "#584400",
+                      "tertiary-container": "#acabab",
+                      "surface-tint": "#755b00",
+                      "inverse-on-surface": "#f3f0ef",
+                      "outline": "#7e7665",
+                      "error-container": "#ffdad6",
+                      "on-tertiary-fixed-variant": "#464747",
+                      "on-surface-variant": "#4d4637",
+                      "primary-fixed-dim": "#e6c364",
+                      "on-secondary-fixed": "#1a1a2e",
+                      "surface-bright": "#fcf9f8",
+                      "surface-container-low": "#f6f3f2",
+                      "surface": "#fcf9f8",
+                      "tertiary-fixed": "#e3e2e2",
+                      "background": "#fcf9f8",
+                      "surface-container-highest": "#e5e2e1",
+                      "on-primary-fixed": "#241a00",
+                      "error": "#ba1a1a",
+                      "on-primary-container": "#503d00"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "fontFamily": {
+                      "headline": ["Plus Jakarta Sans"],
+                      "body": ["Inter"],
+                      "label": ["Inter"]
+              }
+            },
+          },
+        }
+      </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-shadow {
+            box-shadow: 0 20px 50px -12px rgba(28, 27, 27, 0.04);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface font-body text-on-surface selection:bg-primary-container/30">
+<!-- Top Navigation Bar (Suppressed items as per task: focused journey) -->
+<header class="w-full top-0 sticky bg-[#FCF9F8] dark:bg-stone-900 flex items-center justify-between px-6 h-16 z-50">
+<div class="flex items-center">
+<span class="material-symbols-outlined text-[#1C1B1B] dark:text-[#FCF9F8] cursor-pointer" data-icon="close">close</span>
+</div>
+<div class="font-['Plus_Jakarta_Sans','Poppins'] tracking-tight text-xl font-bold tracking-tighter text-[#1C1B1B] dark:text-[#FCF9F8]">
+            StyleMart
+        </div>
+<div class="w-6"></div> <!-- Spacer for symmetry -->
+</header>
+<main class="min-h-[calc(100vh-64px)] flex flex-col items-center justify-center px-8 pb-12">
+<!-- Success State Visual -->
+<div class="mb-10 relative">
+<div class="w-24 h-24 rounded-full bg-primary-container/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-[64px] text-primary-container" data-icon="check_circle" style="font-variation-settings: 'wght' 300;">check_circle</span>
+</div>
+</div>
+<!-- Success Messaging -->
+<div class="text-center max-w-sm mx-auto space-y-4">
+<h1 class="font-headline text-3xl font-extrabold tracking-tight text-on-surface">
+                Order Placed Successfully!
+            </h1>
+<p class="text-tertiary leading-relaxed text-[15px]">
+                Thank you for your purchase. Your order <span class="font-semibold text-on-surface">#STM-8824</span> is being processed and will be with you soon.
+            </p>
+</div>
+<!-- Summary Section (Asymmetric Tonal Layering) -->
+<div class="w-full mt-12 space-y-3">
+<div class="bg-surface-container-low rounded-xl p-6 flex items-center justify-between">
+<div class="flex items-center space-x-4">
+<div class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
+<span class="material-symbols-outlined text-on-secondary-fixed text-xl" data-icon="local_shipping">local_shipping</span>
+</div>
+<div>
+<p class="text-[10px] uppercase tracking-[0.15em] font-medium text-tertiary mb-0.5">Delivery Est</p>
+<p class="font-semibold text-on-surface">3-5 Business Days</p>
+</div>
+</div>
+<div class="h-8 w-[1px] bg-outline-variant/30"></div>
+<div class="text-right">
+<p class="text-[10px] uppercase tracking-[0.15em] font-medium text-tertiary mb-0.5">Order Total</p>
+<p class="font-headline text-lg font-bold text-on-secondary-fixed">$230.00</p>
+</div>
+</div>
+<!-- Contextual Editorial Card -->
+<div class="relative w-full h-32 rounded-xl overflow-hidden mt-6 group">
+<img alt="Luxury silk clothing hanging in a minimalist boutique atelier" class="w-full h-full object-cover grayscale-[0.2] group-hover:scale-105 transition-transform duration-700" data-alt="Close-up of premium silk garments on minimalist brass hangers in a sunlit high-end boutique interior with soft shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDprN0_hKO4x2CI063azktUQNhdyDcuM8b7tgqZzahQKOq8ON81RGmWU9wWtW3Tq58quJauRQ4ypls6tGrFNqnvPPaeOJq8uNiHvuER75tpgSiRzYHe3fh62QHRSQjUBBgX4R1f1xQabntnkImXukxcgYxShh3viEc4d6nOJmqQ1H4BfKL_JBny7BYL43KLoDcUCqdQ-zp0RPCq0cuT1pS6JsfGAHWqUbH4bNZXwz7cTS_k6OeN8YlbS2zTu81Cw5f3dzfJKUVMFg"/>
+<div class="absolute inset-0 bg-gradient-to-r from-on-secondary-fixed/40 to-transparent flex items-center px-6">
+<p class="text-white font-headline font-medium leading-tight max-w-[140px]">
+                        Curating your next masterpiece.
+                    </p>
+</div>
+</div>
+</div>
+<!-- Primary Actions -->
+<div class="w-full mt-12 space-y-4">
+<button class="w-full bg-on-secondary-fixed text-white h-14 rounded-full font-headline font-bold text-sm tracking-widest hover:opacity-90 active:scale-[0.98] transition-all flex items-center justify-center space-x-2">
+<span>TRACK ORDER</span>
+<span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</button>
+<button class="w-full bg-transparent border border-on-secondary-fixed text-on-secondary-fixed h-14 rounded-full font-headline font-bold text-sm tracking-widest hover:bg-on-secondary-fixed/5 active:scale-[0.98] transition-all">
+                CONTINUE SHOPPING
+            </button>
+</div>
+<!-- Support Link -->
+<div class="mt-8 text-center">
+<a class="text-[10px] uppercase tracking-[0.2em] font-bold text-tertiary hover:text-primary transition-colors" href="#">
+                Need help? Contact Atelier Support
+            </a>
+</div>
+</main>
+<!-- Navigation suppressed for Success Screen as per UX Goal: Focused Journey -->
+</body></html>

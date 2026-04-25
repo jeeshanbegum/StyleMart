@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "error": "#ba1a1a",
+                    "on-background": "#1c1b1b",
+                    "on-surface-variant": "#4d4637",
+                    "surface-container-highest": "#e5e2e1",
+                    "on-tertiary-fixed": "#1b1c1c",
+                    "on-error": "#ffffff",
+                    "primary-fixed": "#ffe08f",
+                    "on-secondary-fixed": "#1a1a2e",
+                    "on-secondary-fixed-variant": "#45455b",
+                    "surface-bright": "#fcf9f8",
+                    "surface": "#fcf9f8",
+                    "on-primary-fixed-variant": "#584400",
+                    "on-tertiary": "#ffffff",
+                    "primary-fixed-dim": "#e6c364",
+                    "surface-dim": "#dcd9d9",
+                    "on-error-container": "#93000a",
+                    "error-container": "#ffdad6",
+                    "surface-container-low": "#f6f3f2",
+                    "tertiary-container": "#acabab",
+                    "outline-variant": "#d0c5b2",
+                    "secondary-fixed": "#e2e0fc",
+                    "inverse-primary": "#e6c364",
+                    "on-primary": "#ffffff",
+                    "on-primary-container": "#503d00",
+                    "tertiary-fixed": "#e3e2e2",
+                    "secondary-fixed-dim": "#c6c4df",
+                    "tertiary": "#5e5e5e",
+                    "inverse-on-surface": "#f3f0ef",
+                    "surface-tint": "#755b00",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container-high": "#eae7e7",
+                    "secondary-container": "#e2e0fc",
+                    "on-tertiary-fixed-variant": "#464747",
+                    "on-primary-fixed": "#241a00",
+                    "tertiary-fixed-dim": "#c7c6c6",
+                    "on-secondary-container": "#63627a",
+                    "primary": "#755b00",
+                    "outline": "#7e7665",
+                    "surface-variant": "#e5e2e1",
+                    "primary-container": "#c9a84c",
+                    "on-tertiary-container": "#3f4040",
+                    "on-surface": "#1c1b1b",
+                    "secondary": "#5d5c74",
+                    "background": "#fcf9f8",
+                    "on-secondary": "#ffffff",
+                    "inverse-surface": "#313030",
+                    "surface-container": "#f0eded"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FCF9F8;
+            -webkit-tap-highlight-color: transparent;
+        }
+        h1, h2, h3, .headline {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+<style>
+        body {
+          min-height: max(884px, 100dvh);
+        }
+    </style>
+</head>
+<body class="antialiased text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="bg-[#FCF9F8] dark:bg-stone-950 w-full top-0 z-50 sticky">
+<div class="flex justify-between items-center px-6 py-4 w-full">
+<div class="flex items-center hover:opacity-80 transition-opacity active:scale-95 active:duration-150 cursor-pointer">
+<span class="material-symbols-outlined text-[#5E5E5E]" data-icon="menu">menu</span>
+</div>
+<h1 class="text-xl font-bold tracking-[0.3em] text-[#1A1A2E] dark:text-stone-100 font-headline cursor-text">StyleMart</h1>
+<div class="flex items-center hover:opacity-80 transition-opacity active:scale-95 active:duration-150 cursor-pointer">
+<span class="material-symbols-outlined text-[#5E5E5E]" data-icon="shopping_bag">shopping_bag</span>
+</div>
+</div>
+</header>
+<main class="pb-32">
+<!-- New Editorial Hero Section -->
+<section class="relative w-full aspect-[4/5] bg-surface-container overflow-hidden">
+<img alt="The Tops Edit Hero" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0uhUg_dgppn9eHyUg9GpQgzlX8vQucPxvSWH5x-lk06dsiKg-ZPaaZ_oZVUsun8l2IZ12573wz6ZJx9TUkPso950FPcoTHXichFNJzxh0qAnynkvuxhVGuswJUN_oCdxp2DffAXY8inzHzGEhf7IKdSR9O_G9TnKASqTXa3rtXj1NAliWO_NYNF17qx8iVy5XU-7L_zV-5SToVRfYGuVJZzyXGys2Z3YflTUrqSwk9e5PC0fIHzNs4fo6UiFo4GqWfTaMQfT-MF3"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-secondary-fixed/50 via-transparent to-transparent"></div>
+<div class="absolute bottom-12 left-8 right-8">
+<p class="text-surface font-label uppercase tracking-[0.3em] text-[10px] mb-2">New Collection</p>
+<h2 class="text-4xl text-surface font-headline font-bold leading-[1.1] mb-2">The Tops Edit</h2>
+<p class="text-surface/90 text-sm font-body mb-6">Curated essentials for every occasion.</p>
+</div>
+</section>
+<!-- Category Heading (Modified for spacing/context) -->
+<section class="px-6 pt-12 pb-8">
+<div class="flex items-end justify-between">
+<div>
+<h3 class="text-2xl font-headline font-bold text-on-secondary-fixed tracking-tight">Our Curated Selection</h3>
+<p class="text-tertiary text-sm mt-1">Refined styles for your wardrobe.</p>
+</div>
+</div>
+</section>
+<!-- Product Grid (Asymmetric feel with 2 columns) -->
+<section class="px-6">
+<div class="grid grid-cols-2 gap-x-4 gap-y-10">
+<!-- Product 1 -->
+<div class="group cursor-pointer">
+<div class="aspect-[3/4] rounded-xl overflow-hidden bg-surface-container-low mb-4 relative">
+<img alt="Silk Camisole" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida/ADBb0uhGSXviBOvKl1WQYnxzN9_wrL16GN6uxdELnKHKaERxMkBtxDs1drQSu4c1nbL9Fv-4_THxPZ7xVynMsaq1ei40jHlvwxZBU5SLVWPjanNp1SR_zIhDZisq43W2NjLn3EBJvnVyFI-u0En4TkKpL-h_DccOTPoJMjmTX8ewEEfSx29NNIgDeqlGTGhhNuY_liQbQ5IwFofxwGluqfKxtOHCPpyLxngaVPOOSjTQgEWTskL5tXnhFfsHqIU4sNfzxtqvxp74m-s"/>
+<button class="absolute bottom-3 right-3 bg-white/90 backdrop-blur-md p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-sm" data-icon="favorite">favorite</span>
+</button>
+</div>
+<h4 class="font-headline text-sm font-semibold text-on-secondary-fixed">Silk Camisole</h4>
+<p class="text-primary-container font-headline font-bold mt-1">$145</p>
+</div>
+<!-- Product 2 -->
+<div class="group cursor-pointer translate-y-6">
+<div class="aspect-[3/4] rounded-xl overflow-hidden bg-surface-container-low mb-4 relative">
+<img alt="Linen Shirt" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida/ADBb0uhJ-F2hsd3VJfrCU_cj6FV1TU3p2odqX3ab7HMjBTgqke9syF7e9FWNHTsq6YH55Gpd0XFIlXe9c-LzyOfN1mnV9xWv-k85mSVvg2UBRPVrhzKrJ6OtpT9QyJyvagc17Q6YgGkLzA-VuFRE8a4DcPg6H9gDDeqev7FIMUCWKWXmpBRVbKbpV3-Wr_6592OjaZ00vzcM_-SmNjun5DOO6jNbxPws9FfhFWNUA6IUlNGPVWei5pA_RKfoQBrm6eX4YhMOhpkD6gWx"/>
+<button class="absolute bottom-3 right-3 bg-white/90 backdrop-blur-md p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-sm" data-icon="favorite">favorite</span>
+</button>
+</div>
+<h4 class="font-headline text-sm font-semibold text-on-secondary-fixed">Linen Shirt</h4>
+<p class="text-primary-container font-headline font-bold mt-1">$180</p>
+</div>
+<!-- Product 3 -->
+<div class="group cursor-pointer">
+<div class="aspect-[3/4] rounded-xl overflow-hidden bg-surface-container-low mb-4 relative">
+<img alt="Cotton Ribbed Tank" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida/ADBb0uhUZemQDGuLDFbQdBtY64_ij83qWCwpNbl4G2kT56a9srZ-TVW7eYIVP9p8Tw3z58d-uK1NW73sT6CXxdd3eRhxhmLaNQWW7nXEyDKsLDlOq33iJjhP7CmgusLgNJLwD3nxcXIdE1CfAXKBnT3OuHga8BnJtZFAfAUGR1OKKl8UI6Dy58LWi1Ib4PDABhXGels-a5oFPAGaO3HIzPgmmOOxOEOAUyz9m3eGE4Tf6LcQ78_z24I-JD0SlI26O1L97frLaNPeE8Fw"/>
+<button class="absolute bottom-3 right-3 bg-white/90 backdrop-blur-md p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-sm" data-icon="favorite">favorite</span>
+</button>
+</div>
+<h4 class="font-headline text-sm font-semibold text-on-secondary-fixed">Cotton Ribbed Tank</h4>
+<p class="text-primary-container font-headline font-bold mt-1">$65</p>
+</div>
+<!-- Product 4 -->
+<div class="group cursor-pointer translate-y-6">
+<div class="aspect-[3/4] rounded-xl overflow-hidden bg-surface-container-low mb-4 relative">
+<img alt="Embroidered Blouse" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida/ADBb0ui3pN2do8sz7Kd6Ju2qduFvZk8P7YW2rG1D-wAETV4u6xxqiOHZ_h35VHQi_ZTEFQ86ctjQojSHcA_7ariCW-FM_59qTaiI-YzkRAfeZTjL_be31NQqtwCOvN_OCd0v0REB1CqHQCM6O5yQmRNFln54rwpjI8cT859UxKjSa4EgRZXvYuT3MMLKiHm8-auINUOpD5GX_F05exJgWz_Sc4AsiJq0C5ZXFKL01ZWHntl1FDgqskTsPMExKQfVILS-C3C_JOLdcNM"/>
+<button class="absolute bottom-3 right-3 bg-white/90 backdrop-blur-md p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-sm" data-icon="favorite">favorite</span>
+</button>
+</div>
+<h4 class="font-headline text-sm font-semibold text-on-secondary-fixed">Embroidered Blouse</h4>
+<p class="text-primary-container font-headline font-bold mt-1">$210</p>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-3 bg-[#FCF9F8]/80 dark:bg-stone-950/80 backdrop-blur-xl shadow-[0_-4px_40px_rgba(28,27,27,0.04)]">
+<div class="flex flex-col items-center justify-center text-[#5E5E5E] hover:text-[#C9A84C] transition-colors scale-105 duration-300 cursor-pointer">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.2em] mt-1">Home</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#C9A84C] font-bold scale-105 duration-300 cursor-pointer">
+<span class="material-symbols-outlined" data-icon="storefront">storefront</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.2em] mt-1">Shop</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#5E5E5E] hover:text-[#C9A84C] transition-colors scale-105 duration-300 cursor-pointer">
+<span class="material-symbols-outlined" data-icon="explore">explore</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.2em] mt-1">Explore</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#5E5E5E] hover:text-[#C9A84C] transition-colors scale-105 duration-300 cursor-pointer">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.2em] mt-1">Profile</span>
+</div>
+</nav>
+</body></html>

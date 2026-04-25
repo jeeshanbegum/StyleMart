@@ -1,0 +1,227 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>StyleMart - Editorial Elegance</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;family=Poppins:wght@700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#ffffff",
+                        "surface-container-highest": "#e5e2e1",
+                        "on-secondary": "#ffffff",
+                        "on-primary-fixed": "#241a00",
+                        "surface": "#fcf9f8",
+                        "surface-container": "#f0eded",
+                        "surface-dim": "#dcd9d9",
+                        "inverse-primary": "#e6c364",
+                        "inverse-surface": "#313030",
+                        "error-container": "#ffdad6",
+                        "surface-tint": "#755b00",
+                        "primary-fixed-dim": "#e6c364",
+                        "primary-container": "#c9a84c",
+                        "tertiary-container": "#acabab",
+                        "on-surface": "#1c1b1b",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary": "#5d5c74",
+                        "on-primary-container": "#503d00",
+                        "on-surface-variant": "#4d4637",
+                        "on-primary-fixed-variant": "#584400",
+                        "surface-container-high": "#eae7e7",
+                        "secondary-fixed": "#e2e0fc",
+                        "tertiary-fixed-dim": "#c7c6c6",
+                        "secondary-container": "#e2e0fc",
+                        "primary": "#755b00",
+                        "outline-variant": "#d0c5b2",
+                        "on-tertiary-container": "#3f4040",
+                        "on-secondary-container": "#63627a",
+                        "surface-bright": "#fcf9f8",
+                        "on-secondary-fixed": "#1a1a2e",
+                        "background": "#fcf9f8",
+                        "on-tertiary-fixed-variant": "#464747",
+                        "on-error-container": "#93000a",
+                        "secondary-fixed-dim": "#c6c4df",
+                        "tertiary": "#5e5e5e",
+                        "error": "#ba1a1a",
+                        "inverse-on-surface": "#f3f0ef",
+                        "surface-variant": "#e5e2e1",
+                        "primary-fixed": "#ffe08f",
+                        "surface-container-low": "#f6f3f2",
+                        "on-secondary-fixed-variant": "#45455b",
+                        "on-primary": "#ffffff",
+                        "on-background": "#1c1b1b",
+                        "outline": "#7e7665",
+                        "on-tertiary-fixed": "#1b1c1c",
+                        "tertiary-fixed": "#e3e2e2"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #fcf9f8;
+            color: #1c1b1b;
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-surface min-h-screen">
+<!-- TopAppBar -->
+<header class="bg-[#FCF9F8] dark:bg-stone-950 docked full-width top-0 sticky z-50">
+<div class="flex justify-between items-center px-6 py-4 w-full">
+<button class="text-[#C9A84C] dark:text-[#D4AF37] scale-95 active:scale-90 transition-transform hover:opacity-80 transition-opacity" style="">
+<span class="material-symbols-outlined" style="">menu</span>
+</button>
+<h1 class="text-2xl font-['Poppins'] font-bold text-[#1A1A2E] dark:text-stone-100 tracking-tighter" style=""></h1><h1 class="text-xl font-bold tracking-[0.3em] text-[#1A1A2E] dark:text-stone-100 font-headline" style="--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; letter-spacing: 0.3em; --tw-text-opacity: 1; color: rgb(26, 26, 46); background-color: rgba(252, 249, 248, 0.8); outline: none !important;">StyleMart</h1>
+<button class="text-[#C9A84C] dark:text-[#D4AF37] scale-95 active:scale-90 transition-transform hover:opacity-80 transition-opacity" style="">
+<span class="material-symbols-outlined" style="">search</span>
+</button>
+</div>
+<div class="bg-[#F0EDED] dark:bg-stone-900 h-[1px] w-full"></div>
+</header>
+<main class="pb-32">
+<!-- Hero Section: Editorial Carousel Style -->
+<section class="relative px-6 pt-6 pb-10">
+<div class="relative h-[480px] w-full overflow-hidden rounded-[24px] shadow-sm">
+<img alt="New Season Collection" class="absolute inset-0 h-full w-full object-cover" data-alt="Sophisticated fashion model in a neutral-toned linen suit posing in a minimalist sunlit studio with soft shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCE4xNk_4B1ynkENTe57Gmt4BLDfv40UA-wxlnZXSrJFPu5AUxAldMI7rbXG_FNGpF3Q_5ZCAYVhjKbZ9bJGEHQiFvKWLdG8lQhb5kw6ORlp2Ueo79dPRVzmP9lknl1OuQvQfU7wd-ctgEiVtnlTaH0YWY68ivSNM0gRseStbNibwKbDhZyPJZR_55e3L20pimKMb3r5xi6R2mqtc_vUCPz5kvPTkk5Yy6R8zEuf0TCxCBvhhJrL07mXrkAI_Lix55hmlkHz6YnNw" style="">
+<div class="absolute inset-0 bg-gradient-to-t from-on-secondary-fixed/60 via-transparent to-transparent"></div>
+<div class="absolute bottom-10 left-8 right-8">
+<h2 class="text-surface font-headline font-extrabold text-4xl tracking-tight leading-tight mb-4" style="">New Season Collections</h2>
+</div>
+</div>
+</section>
+<!-- Categories Grid -->
+<section class="px-6 mb-12">
+<div class="flex justify-between items-end mb-6">
+<h3 class="text-on-secondary-fixed font-headline font-bold text-xl" style="">Categories</h3>
+<span class="text-primary font-label text-xs uppercase tracking-widest font-semibold" style=""><br></span>
+</div>
+<div class="grid grid-cols-5 gap-3">
+<!-- Shirt -->
+<div class="flex flex-col items-center gap-3">
+<div class="w-full aspect-square bg-surface-container rounded-2xl flex items-center justify-center group active:scale-95 transition-all">
+<span class="material-symbols-outlined text-on-secondary-fixed opacity-70 group-hover:text-primary transition-colors" style="">apparel</span>
+</div>
+<span class="text-[10px] font-label font-bold uppercase tracking-tighter text-tertiary" style="">Shirts</span>
+</div>
+<!-- T-Shirt -->
+<div class="flex flex-col items-center gap-3">
+<div class="w-full aspect-square bg-surface-container rounded-2xl flex items-center justify-center group active:scale-95 transition-all">
+<span class="material-symbols-outlined text-on-secondary-fixed opacity-70 group-hover:text-primary transition-colors" style="">checkroom</span>
+</div>
+<span class="text-[10px] font-label font-bold uppercase tracking-tighter text-tertiary" style="">T-Shirts</span>
+</div>
+<!-- Watch -->
+<div class="flex flex-col items-center gap-3">
+<div class="w-full aspect-square bg-surface-container rounded-2xl flex items-center justify-center group active:scale-95 transition-all">
+<span class="material-symbols-outlined text-on-secondary-fixed opacity-70 group-hover:text-primary transition-colors" style="">watch</span>
+</div>
+<span class="text-[10px] font-label font-bold uppercase tracking-tighter text-tertiary" style="">Watches</span>
+</div>
+<!-- Shoe -->
+<div class="flex flex-col items-center gap-3">
+<div class="w-full aspect-square bg-surface-container rounded-2xl flex items-center justify-center group active:scale-95 transition-all">
+<span class="material-symbols-outlined text-on-secondary-fixed opacity-70 group-hover:text-primary transition-colors" style="">ice_skating</span>
+</div>
+<span class="text-[10px] font-label font-bold uppercase tracking-tighter text-tertiary" style="">Shoes</span>
+</div>
+<!-- Pants -->
+<div class="flex flex-col items-center gap-3">
+<div class="w-full aspect-square bg-surface-container rounded-2xl flex items-center justify-center group active:scale-95 transition-all">
+<span class="material-symbols-outlined text-on-secondary-fixed opacity-70 group-hover:text-primary transition-colors" style="">accessibility</span>
+</div>
+<span class="text-[10px] font-label font-bold uppercase tracking-tighter text-tertiary" style="">Pants</span>
+</div>
+</div>
+</section>
+<!-- Trending Now: Curated Selection -->
+<section class="px-6">
+<div class="flex justify-between items-end mb-6">
+<h3 class="text-on-secondary-fixed font-headline font-bold text-xl" style="">Trending Now</h3>
+<div class="flex gap-2">
+<div class="w-2 h-2 rounded-full bg-primary-container"></div>
+<div class="w-2 h-2 rounded-full bg-outline-variant/30"></div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<!-- Product Card 1 -->
+<div class="group">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden bg-surface-container mb-4">
+<img alt="Ivory Trench Coat" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Minimalist ivory trench coat draped on a wooden hanger against a clean beige background with soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbWmyvcZ2Ij0oYqyPQbzYih_HMPuvtfYrhDgSeY5p96cxwaZoGMjeQy5hmc3USMPRK_9rgEEOEvJoXmd3a5tV5QpeOpQeZ34-GARAoxJdru-zLQjlcX3h8kjaHhGdSbkYG7sLWaczQxBSz9qxNIUfO-d9sImZMZpam7KZp9cg-7Oqq8l6ZgX-DdjbN2wDDNF4XytQO5j3TW0jPQaFz1fYLG2ovBw9MSbBDEx_smDBqLtVD3qmyTyCQatfZGZGAVH7WX7NkrxPOjg" style="">
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface/80 backdrop-blur-md flex items-center justify-center text-on-surface" style="">
+<span class="material-symbols-outlined text-[18px]" style="">favorite</span>
+</button>
+</div>
+<h4 class="font-body font-medium text-sm text-on-surface mb-1" style="">Ivory Tailored Trench</h4>
+<p class="font-headline font-bold text-primary" style="">$285.00</p>
+</div>
+<!-- Product Card 2 -->
+<div class="group">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden bg-surface-container mb-4">
+<img alt="Essential Timepiece" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Luxury gold watch with a white face and leather strap lying on a silk fabric with gentle folds and golden highlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtHrkNQ6OupG8eppnL6oe0UzMKxLjPnJ6OLUXZixxYXKs37T_QEv-bseDn3MUN8Ju2zxbYR6ULVfW_CpYvWsJTBs4uD048IumClyJJ8AgllsCxQhB9AOXtjws76MT5kuoQ1vDdQkDzBq4ou97GSt5NGH9yRy5UMTLyPqvU1Ms93X9j6JqXe7NUrXKVy6CLXRcX4eu8ycAkx1NJKjCx-0dU81JUGRTcUhttgvXlLBy8wEYVXyAH5i-uG09HfqIu9rb-tx_p0yIeGw" style="">
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface/80 backdrop-blur-md flex items-center justify-center text-on-surface" style="">
+<span class="material-symbols-outlined text-[18px]" style="">favorite</span>
+</button>
+</div>
+<h4 class="font-body font-medium text-sm text-on-surface mb-1" style="">Classic Gold Chrono</h4>
+<p class="font-headline font-bold text-primary" style="">$195.00</p>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pt-3 pb-6 bg-[#FCF9F8]/80 dark:bg-stone-950/80 backdrop-blur-xl border-t border-[#E5E2E1]/15 dark:border-stone-800 shadow-[0_-4px_40px_rgba(28,27,27,0.04)] rounded-t-[30px] z-50">
+<!-- Home (Active) -->
+<a class="flex flex-col items-center justify-center text-[#1A1A2E] dark:text-[#C9A84C] bg-[#C9A84C]/10 rounded-full px-4 py-1 active:scale-95 transition-all duration-200" href="#" style="">
+<span class="material-symbols-outlined" style="font-variation-settings: &quot;FILL&quot; 1;">home</span>
+<span class="font-['Inter'] text-[10px] uppercase tracking-widest font-semibold mt-1" style="">Home</span>
+</a>
+<!-- Categories -->
+<a class="flex flex-col items-center justify-center text-[#5E5E5E] dark:text-stone-500 hover:text-[#C9A84C] transition-colors active:scale-95 transition-all duration-200" href="#" style="">
+<span class="material-symbols-outlined" style="">grid_view</span>
+<span class="font-['Inter'] text-[10px] uppercase tracking-widest font-semibold mt-1" style="">Categories</span>
+</a>
+<!-- Cart -->
+<a class="flex flex-col items-center justify-center text-[#5E5E5E] dark:text-stone-500 hover:text-[#C9A84C] transition-colors active:scale-95 transition-all duration-200" href="#" style="">
+<span class="material-symbols-outlined" style="">shopping_bag</span>
+<span class="font-['Inter'] text-[10px] uppercase tracking-widest font-semibold mt-1" style="">Cart</span>
+</a>
+<!-- Orders -->
+<a class="flex flex-col items-center justify-center text-[#5E5E5E] dark:text-stone-500 hover:text-[#C9A84C] transition-colors active:scale-95 transition-all duration-200" href="#" style="">
+<span class="material-symbols-outlined" style="">receipt_long</span>
+<span class="font-['Inter'] text-[10px] uppercase tracking-widest font-semibold mt-1" style="">Orders</span>
+</a>
+<!-- Profile -->
+<a class="flex flex-col items-center justify-center text-[#5E5E5E] dark:text-stone-500 hover:text-[#C9A84C] transition-colors active:scale-95 transition-all duration-200" href="#" style="">
+<span class="material-symbols-outlined" style="">person</span>
+<span class="font-['Inter'] text-[10px] uppercase tracking-widest font-semibold mt-1" style="">Profile</span>
+</a>
+</nav>
+</body></html>

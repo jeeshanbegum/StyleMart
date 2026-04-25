@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>StyleMart | Shirts Collection</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "outline": "#7e7665",
+                    "tertiary-fixed": "#e3e2e2",
+                    "surface-dim": "#dcd9d9",
+                    "surface-container-low": "#f6f3f2",
+                    "secondary-fixed-dim": "#c6c4df",
+                    "inverse-on-surface": "#f3f0ef",
+                    "on-primary-container": "#503d00",
+                    "secondary-fixed": "#e2e0fc",
+                    "on-secondary-fixed-variant": "#45455b",
+                    "on-tertiary-container": "#3f4040",
+                    "surface-container": "#f0eded",
+                    "primary": "#755b00",
+                    "surface-tint": "#755b00",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "on-primary-fixed": "#241a00",
+                    "secondary-container": "#e2e0fc",
+                    "surface-container-highest": "#e5e2e1",
+                    "primary-container": "#c9a84c",
+                    "surface-bright": "#fcf9f8",
+                    "on-error": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "primary-fixed-dim": "#e6c364",
+                    "outline-variant": "#d0c5b2",
+                    "on-primary": "#ffffff",
+                    "tertiary-fixed-dim": "#c7c6c6",
+                    "secondary": "#5d5c74",
+                    "error": "#ba1a1a",
+                    "inverse-primary": "#e6c364",
+                    "on-secondary-container": "#63627a",
+                    "on-surface-variant": "#4d4637",
+                    "surface-container-high": "#eae7e7",
+                    "on-tertiary-fixed": "#1b1c1c",
+                    "on-tertiary-fixed-variant": "#464747",
+                    "surface": "#fcf9f8",
+                    "primary-fixed": "#ffe08f",
+                    "on-background": "#1c1b1b",
+                    "on-surface": "#1c1b1b",
+                    "error-container": "#ffdad6",
+                    "background": "#fcf9f8",
+                    "tertiary": "#5e5e5e",
+                    "on-secondary-fixed": "#1a1a2e",
+                    "inverse-surface": "#313030",
+                    "surface-container-lowest": "#ffffff",
+                    "tertiary-container": "#acabab",
+                    "surface-variant": "#e5e2e1",
+                    "on-primary-fixed-variant": "#584400"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+            font-size: 20px;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FCF9F8;
+            color: #1C1B1B;
+        }
+        h1, h2, h3 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#FCF9F8]/90 backdrop-blur-md dark:bg-stone-950 flex justify-between items-center px-6 h-16 w-full">
+<div class="flex items-center gap-4">
+<button class="active:scale-95 duration-200 hover:opacity-80 transition-opacity" style="">
+<span class="material-symbols-outlined text-[#5E5E5E]" style="">menu</span>
+</button>
+</div>
+<div class="absolute left-1/2 -translate-x-1/2">
+<h1 class="text-2xl font-bold tracking-[0.3em] text-[#1A1A2E] dark:text-stone-100 font-headline cursor-text" data-stitch-added-classes="cursor-text" spellcheck="false" style='--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-family: "Plus Jakarta Sans"; --tw-text-opacity: 1; color: rgb(26, 26, 46); outline: none !important;'>StyleMart</h1>
+</div>
+<div class="flex items-center gap-4">
+<button class="active:scale-95 duration-200 hover:opacity-80 transition-opacity relative" style="">
+<span class="material-symbols-outlined text-[#5E5E5E]" style="">shopping_bag</span>
+<span class="absolute -top-1 -right-1 bg-primary text-[8px] text-white rounded-full w-3 h-3 flex items-center justify-center" style="">0</span>
+</button>
+</div>
+</header>
+<!-- Content Separation Line -->
+<div class="fixed top-16 w-full bg-[#F0EDED] dark:bg-stone-900 h-[1px] z-50"></div>
+<main class="pt-16 pb-32 max-w-7xl mx-auto">
+<!-- Collection Hero Section with Editorial Background -->
+<section class="relative h-[60vh] md:h-[70vh] w-full overflow-hidden mb-16 flex items-end">
+<div class="absolute inset-0">
+<img alt="Minimalist fabric texture detail" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAzxAI4nnyPXGoiE9lKXsipUmOPg1og_W8JnRGg_8rqXSJn07bGDfXn2pWk-m3MFdKPLsD-iFft6Su14BrctiEUQdNVjkOZBQJV0_Y4PrvyyEUUgfpZ05wH7YqujbZsTiZz0a5QvtOd0Zq218bhKHxu2BQ_J1fx-vJOsE5rBEpZLzBm3epQVxJ3QHPqM8tEOSo9LBpJZY7vRbkEel20AdwYG0biwQaD09gciBqu_x8J2AmzX4fUeb9QKxbYmpatvbRvXT7rV_OSA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10"></div>
+</div>
+<div class="relative z-10 w-full px-6 pb-12 md:px-12 md:pb-24">
+<div class="max-w-2xl">
+<p class="text-white/80 font-medium tracking-[0.3em] text-[10px] uppercase mb-4" style="">Summer Collection</p>
+<h2 class="text-5xl md:text-8xl font-bold tracking-tighter text-white mb-8 leading-none" style="">The Essential Shirts.</h2>
+<div class="flex items-center gap-4 text-white/70 text-sm">
+<span class="border-b border-white/30 pb-1 cursor-pointer hover:text-white transition-colors">Filter</span>
+<span class="text-white/30">/</span>
+<span class="pb-1 cursor-pointer hover:text-white transition-colors">Sort</span>
+</div>
+</div>
+</div>
+</section>
+<div class="px-6 md:px-12">
+<!-- Product Grid: 2-column Asymmetric breathing room -->
+<div class="grid grid-cols-2 gap-x-4 gap-y-12 md:gap-x-12 md:gap-y-24">
+<!-- Product 1: Sky Blue -->
+<article class="group cursor-pointer">
+<div class="aspect-[3/4] overflow-hidden rounded-xl bg-surface-container mb-6 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Premium sky blue cotton oxford shirt hanging against a minimal white wall with soft natural side lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAzxAI4nnyPXGoiE9lKXsipUmOPg1og_W8JnRGg_8rqXSJn07bGDfXn2pWk-m3MFdKPLsD-iFft6Su14BrctiEUQdNVjkOZBQJV0_Y4PrvyyEUUgfpZ05wH7YqujbZsTiZz0a5QvtOd0Zq218bhKHxu2BQ_J1fx-vJOsE5rBEpZLzBm3epQVxJ3QHPqM8tEOSo9LBpJZY7vRbkEel20AdwYG0biwQaD09gciBqu_x8J2AmzX4fUeb9QKxbYmpatvbRvXT7rV_OSA" style=""/>
+<button class="absolute top-4 right-4 w-10 h-10 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300" style="">
+<span class="material-symbols-outlined text-on-surface" style="">favorite</span>
+</button>
+</div>
+<div class="px-2">
+<h3 class="text-lg md:text-xl font-semibold text-on-surface mb-2" style="">Oxford Shirt</h3>
+<p class="text-tertiary text-xs md:text-sm uppercase tracking-widest mb-4" style="">Sky Blue</p>
+<p class="text-on-secondary-fixed font-bold text-lg" style="">$120</p>
+</div>
+</article>
+<!-- Product 2: Pale Pink -->
+<article class="group cursor-pointer mt-12 md:mt-24">
+<div class="aspect-[3/4] overflow-hidden rounded-xl bg-surface-container mb-6 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Elegant pale pink linen shirt neatly folded on a stone surface with high fashion editorial lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvEgfNVm_8NXveZ42muNrYxifKhHlL-kee_Qob3cbefra5Uf9RlqaCEJ9aAAaGbuD4iaCZ8B0XbnBCpvI-I75Ekti1GTtolslLR6hAxOOmNnw0qSpYc4inatFmhEMVtNnPAqXPPPuExnD4BzjRkyAWqN99_uG2ZHO0AN5nRf4Z4UQPU_pvF5kyrc7LDFRujubgGFbeb434GiHHrlMdHVKsgAoss31j7jbp5LabrP1e1kEzXM_GPSzWcWw2PBH5LxfKSP0tlZgJNw" style=""/>
+<button class="absolute top-4 right-4 w-10 h-10 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300" style="">
+<span class="material-symbols-outlined text-on-surface" style="">favorite</span>
+</button>
+</div>
+<div class="px-2">
+<h3 class="text-lg md:text-xl font-semibold text-on-surface mb-2" style="">Oxford Shirt</h3>
+<p class="text-tertiary text-xs md:text-sm uppercase tracking-widest mb-4" style="">Pale Pink</p>
+<p class="text-on-secondary-fixed font-bold text-lg" style="">$120</p>
+</div>
+</article>
+<!-- Product 3: Crisp White -->
+<article class="group cursor-pointer">
+<div class="aspect-[3/4] overflow-hidden rounded-xl bg-surface-container mb-6 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Classic crisp white button down shirt being worn by a model in a bright sunlit studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDphrjzttal9JN6BNGM8DmBy8DsnRG4DX85vr_PH-3Oq_t2JQHw4Rj4YkM2BjAD-VIR9zmvtlFp1z-8-4BQf6idfnmOePejqMzpy1tc_KaAnCWtcAl8ACa7vQdpbylC_vz57myEA-W_3TB1fkE5hnPfup8Nc9d6ccUvYnu-RTM5NayNSCLwMxpfovU5ic9Xk-NlJRWbCmPDcgc3J9_loBT63kTAulClTLSgcHI_FKWi9rdaytlnBdeVXVPW2vPg2GmGCB4jydr4Vw" style=""/>
+<button class="absolute top-4 right-4 w-10 h-10 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300" style="">
+<span class="material-symbols-outlined text-on-surface" style="">favorite</span>
+</button>
+</div>
+<div class="px-2">
+<h3 class="text-lg md:text-xl font-semibold text-on-surface mb-2" style="">Oxford Shirt</h3>
+<p class="text-tertiary text-xs md:text-sm uppercase tracking-widest mb-4" style="">Crisp White</p>
+<p class="text-on-secondary-fixed font-bold text-lg" style="">$120</p>
+</div>
+</article>
+<!-- Product 4: Forest Green -->
+<article class="group cursor-pointer mt-12 md:mt-24">
+<div class="aspect-[3/4] overflow-hidden rounded-xl bg-surface-container mb-6 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Deep forest green tailored shirt with high quality texture visible under dramatic moody studio light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBS-o7qiks2qaGc3B5bBTKwzcbeW0c_YzLeIOHmds8gh3bfjiGOILBCgf7ZKqkxANOLNFfRgpFoHgY5Tl2NNDqgmJxwX7paaB6abJXZWxUQc8P1UersA5SsMRm-SC5iGRmGuIjVlBBgCjyCJEFZDnOcIdswhZkzaBuXdvrQrr9A5t53vNG8Q85_3hAYIMkLCn5-c45cWyF-MbheXsJMppNXraEYKtbEKlORgsXXb76ns4V7Qz0MjERqP-gdzV48E5Jnj63GEl3tbw" style=""/>
+<button class="absolute top-4 right-4 w-10 h-10 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300" style="">
+<span class="material-symbols-outlined text-on-surface" style="">favorite</span>
+</button>
+</div>
+<div class="px-2">
+<h3 class="text-lg md:text-xl font-semibold text-on-surface mb-2" style="">Oxford Shirt</h3>
+<p class="text-tertiary text-xs md:text-sm uppercase tracking-widest mb-4" style="">Forest Green</p>
+<p class="text-on-secondary-fixed font-bold text-lg" style="">$120</p>
+</div>
+</article>
+</div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center pt-3 pb-6 px-4 bg-[#FCF9F8]/80 dark:bg-stone-950/80 backdrop-blur-xl border-t border-[#E5E2E1]/30 dark:border-stone-800/30 shadow-[0_-4px_20px_rgba(28,27,27,0.04)] z-50">
+<a class="flex flex-col items-center justify-center text-[#5E5E5E] active:scale-90 duration-200 hover:text-[#C9A84C] transition-colors" href="#" style="">
+<span class="material-symbols-outlined mb-1" style="">home</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.2em]" style="">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#C9A84C] font-bold active:scale-90 duration-200" href="#" style="">
+<span class="material-symbols-outlined mb-1" style='font-variation-settings: "FILL" 1;'>storefront</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.2em]" style="">Shop</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#5E5E5E] active:scale-90 duration-200 hover:text-[#C9A84C] transition-colors" href="#" style="">
+<span class="material-symbols-outlined mb-1" style="">explore</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.2em]" style="">Explore</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#5E5E5E] active:scale-90 duration-200 hover:text-[#C9A84C] transition-colors" href="#" style="">
+<span class="material-symbols-outlined mb-1" style="">person</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.2em]" style="">Profile</span>
+</a>
+</nav>
+</body></html>

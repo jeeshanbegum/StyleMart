@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-background": "#1c1b1b",
+                    "surface-dim": "#dcd9d9",
+                    "surface-container-low": "#f6f3f2",
+                    "inverse-on-surface": "#f3f0ef",
+                    "primary": "#755b00",
+                    "on-tertiary-container": "#3f4040",
+                    "surface-container-lowest": "#ffffff",
+                    "on-primary-fixed": "#241a00",
+                    "surface-bright": "#fcf9f8",
+                    "secondary": "#5d5c74",
+                    "inverse-surface": "#313030",
+                    "surface-container-highest": "#e5e2e1",
+                    "outline-variant": "#d0c5b2",
+                    "surface-tint": "#755b00",
+                    "secondary-container": "#e2e0fc",
+                    "error": "#ba1a1a",
+                    "on-primary": "#ffffff",
+                    "on-surface": "#1c1b1b",
+                    "surface": "#fcf9f8",
+                    "outline": "#7e7665",
+                    "on-secondary": "#ffffff",
+                    "surface-container": "#f0eded",
+                    "error-container": "#ffdad6",
+                    "on-error-container": "#93000a",
+                    "on-surface-variant": "#4d4637",
+                    "surface-container-high": "#eae7e7",
+                    "tertiary-container": "#acabab",
+                    "on-tertiary-fixed-variant": "#464747",
+                    "primary-container": "#c9a84c",
+                    "tertiary-fixed-dim": "#c7c6c6",
+                    "tertiary-fixed": "#e3e2e2",
+                    "on-primary-fixed-variant": "#584400",
+                    "background": "#fcf9f8",
+                    "on-secondary-fixed": "#1a1a2e",
+                    "on-primary-container": "#503d00",
+                    "inverse-primary": "#e6c364",
+                    "tertiary": "#5e5e5e",
+                    "primary-fixed": "#ffe08f",
+                    "on-tertiary": "#ffffff",
+                    "on-tertiary-fixed": "#1b1c1c",
+                    "primary-fixed-dim": "#e6c364",
+                    "on-secondary-container": "#63627a",
+                    "on-error": "#ffffff",
+                    "secondary-fixed": "#e2e0fc",
+                    "on-secondary-fixed-variant": "#45455b",
+                    "surface-variant": "#e5e2e1",
+                    "secondary-fixed-dim": "#c6c4df"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        }
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      body {
+        -webkit-tap-highlight-color: transparent;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#FCF9F8] dark:bg-stone-950">
+<div class="flex justify-between items-center px-6 h-16 w-full">
+<button class="active:scale-95 duration-200 hover:opacity-70 transition-opacity" style="">
+<span class="material-symbols-outlined text-[#1A1A2E] dark:text-stone-100" style="">menu</span>
+</button>
+<h1 class="text-2xl font-bold tracking-[0.2em] text-[#1A1A2E] dark:text-stone-100 font-['Plus_Jakarta_Sans']" style=""><h1 class="text-2xl font-bold tracking-[0.3em] text-[#1A1A2E] dark:text-stone-100 font-headline cursor-text" data-stitch-added-classes="cursor-text" spellcheck="false" style="--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; --tw-text-opacity: 1; color: rgb(26, 26, 46); outline: none !important;">StyleMart</h1></h1>
+<button class="active:scale-95 duration-200 hover:opacity-70 transition-opacity" style="">
+<span class="material-symbols-outlined text-[#1A1A2E] dark:text-stone-100" style="">shopping_bag</span>
+</button>
+</div>
+<div class="bg-[#F0EDED] dark:bg-stone-900 h-[1px]"></div>
+</header>
+<main class="pt-16 pb-32">
+<!-- Editorial Hero Section -->
+<section class="relative w-full h-[618px] flex items-end overflow-hidden">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="Ultra high-end luxury watch on a dark velvet surface with dramatic golden hour side lighting and soft atmospheric bokeh background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCF28uxb-Z1uPRiw2UmKGa784FwYgH3ywywXYawq0rM2nwz0q8a3JKHMhcu6_RWrSmlEeZ7PQMmsjk3MnGjh5tO9yDpVHzcmKGWrOwFcqDIl2dnHqGi5e8Djs3rICBNSkt9Dzj4HqIRLKePac3SrRLfM3E_q0-hyDH5HkbARiNSDYUbOxcnprfARAsd0YHwMQUiSZeiOQEvmhDfKrpPi5wb9lymimrQwvrvGobjSO6EnAD3Yb_uKsHVwiPvyO5uU6Ss9IdV5_kaTw" style=""/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-secondary-fixed/80 via-transparent to-transparent"></div>
+<div class="relative z-10 p-8 w-full">
+<div class="backdrop-blur-md bg-surface/10 p-6 rounded-xl border border-white/10 max-w-[280px]">
+<span class="text-primary-container font-label uppercase tracking-[0.3em] text-[10px] mb-2 block" style="">Curated Volume I</span>
+<h2 class="font-headline text-4xl font-extrabold text-surface tracking-tight mb-4" style="">The Watch Edit</h2>
+<p class="text-surface/80 text-sm leading-relaxed mb-6" style="">A masterclass in horological precision and timeless aesthetic.</p>
+</div>
+</div>
+</section>
+<!-- Product Grid Section -->
+<section class="px-6 mt-12">
+<div class="flex justify-between items-baseline mb-8">
+<h3 class="font-headline text-2xl font-bold text-on-secondary-fixed" style="">The Collection</h3>
+<span class="text-tertiary text-xs uppercase tracking-widest font-medium" style="">4 Selected Pieces</span>
+</div>
+<div class="grid grid-cols-2 gap-x-4 gap-y-10">
+<!-- Product 1 -->
+<div class="group flex flex-col">
+<div class="aspect-[3/4] rounded-xl overflow-hidden mb-6 bg-surface-container-low relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Luxury black chronograph watch detailed macro shot on a slate grey background with soft cinematic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3CwPSzwM5149EcWcL840m83cpRWjwsshqIQyV2AT3fzZNj_4NwOIIvgL-4-ONVCWBVMX9Ix8Oq44y6_nHqCesaxRaaCkGTCVBXZYWP7Morr5ijK2kbLUQTExb5BTtATcHSUMsR-Z3h5BCMZUOEIg30vYe3oLDai0lwC3p94XlPFVitM5hxS3oBml3c40XKqKp5ydEwDdZfAzsjTpTqztAGe3hOU7gAiG5BrFOyWBVuvf3O70i3OqN2uF9WiqgC29MfeXpRfC2vg" style=""/>
+<div class="absolute top-3 left-3 bg-on-secondary-fixed text-surface text-[10px] px-2 py-1 rounded-full uppercase tracking-tighter" style="">New</div>
+</div>
+<div class="px-1">
+<h4 class="font-headline font-bold text-on-surface text-base mb-1" style="">Heritage Chronograph</h4>
+<p class="text-tertiary text-[11px] mb-4" style="">Midnight Black</p>
+<p class="text-primary-container font-headline font-bold" style="">$850</p>
+</div>
+</div>
+<!-- Product 2 -->
+<div class="group flex flex-col pt-8">
+<div class="aspect-[3/4] rounded-xl overflow-hidden mb-6 bg-surface-container-low relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Minimalist rose gold watch with white face displayed on a marble surface with warm natural morning sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwQlsYDPilMCDOW8eXFeAod7L8UptqcuIrvGuYqNovc7O8QmQPZra9PmRhllJueQkeI_N8qQiRVNVinGKtmQCTPovrF6foQZVQbGF8zxzvGo-jr3N01C6QyH7EZ5E9g-LZJijZYk2VEUWtzL9YwAqSz292Ng-Dow-OHf3Q-NakTRLsyVD5vVy9MNWjd6g6EDQ8uB-CLKKHQQSouTg-hob_L_XxXJ476v0M6x55qf-E_qqPFFG3GTxaW3UOOj0aZuRfWAmATO0Ysw" style=""/>
+</div>
+<div class="px-1">
+<h4 class="font-headline font-bold text-on-surface text-base mb-1" style="">Minimalist Gold</h4>
+<p class="text-tertiary text-[11px] mb-4" style="">Rose Gold</p>
+<p class="text-primary-container font-headline font-bold" style="">$620</p>
+</div>
+</div>
+<!-- Product 3 -->
+<div class="group flex flex-col">
+<div class="aspect-[3/4] rounded-xl overflow-hidden mb-6 bg-surface-container-low relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Pro diver watch with ocean blue bezel submerged in clean water with sparkling light reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCo0lnr9grrvbFtXBv0gZnJB87OC9NBiLPuvrMj6bF9Bd1TqixKX9e1mADOKtwlZf4y2ggpJBjfQzNHiJ-I2vInvMb5POW3O4e1k4hGbeG7IFaMVcV25zsNDXkBNs9wU1wu1PLOrjJLfboULB1yDkZCyS1nlzboSxAuNJDyKu8vEgzxcXUSzpGKt4rxDQL1FMdaEW706EGBjldChPVHDaZXlM8ZCvIzwc1rJWScqxuzgJn1047kmiltivszrWil-TH474F7u1qG4A" style=""/>
+</div>
+<div class="px-1">
+<h4 class="font-headline font-bold text-on-surface text-base mb-1" style="">Diver Special</h4>
+<p class="text-tertiary text-[11px] mb-4" style="">Ocean Blue</p>
+<p class="text-primary-container font-headline font-bold" style="">$1,100</p>
+</div>
+</div>
+<!-- Product 4 -->
+<div class="group flex flex-col pt-8">
+<div class="aspect-[3/4] rounded-xl overflow-hidden mb-6 bg-surface-container-low relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Classic leather strap watch with walnut brown band on a rustic wooden desk with warm indoor lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWaqKSkxyLdUmPFPvF2l19jSlsyHWoTaGT-AJhgAMW9H8J3J33D5bfjflSe_loyglnIAHwRjtgtUUHg9zCNVcz50soGfcQWI1b7uJsRH83oT37IbkwKKRHQhBnr7-8WpqGak4_ceoj4QBykAGCl2CgkCqYPf34cEWu4Lx1QbLC9RJt2IaoLBidyOP-KMa3ImXSvvuMFt1ccDq9C2x7WvC8QWVyhlFj4rAkcXAmt4ovYU93J1ZZju_e1wi0Midd4WAJXmshf4dNdA" style=""/>
+</div>
+<div class="px-1">
+<h4 class="font-headline font-bold text-on-surface text-base mb-1" style="">Classic Leather</h4>
+<p class="text-tertiary text-[11px] mb-4" style="">Walnut Brown</p>
+<p class="text-primary-container font-headline font-bold" style="">$450</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter Branding Block -->
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-6 pt-3 bg-[#FCF9F8]/80 dark:bg-stone-950/80 backdrop-blur-xl z-50 rounded-t-[32px] shadow-[0_-4px_40px_rgba(28,27,27,0.04)]">
+<a class="flex flex-col items-center justify-center text-[#C9A84C] bg-[#C9A84C]/10 rounded-full px-4 py-1 active:scale-90 duration-300" href="#">
+<span class="material-symbols-outlined mb-1" style='font-variation-settings: "FILL" 1;'>home</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-widest font-bold">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#5E5E5E] hover:text-[#C9A84C] transition-colors active:scale-90 duration-300" href="#">
+<span class="material-symbols-outlined mb-1">shopping_bag</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-widest">Shop</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#5E5E5E] hover:text-[#C9A84C] transition-colors active:scale-90 duration-300" href="#">
+<span class="material-symbols-outlined mb-1">explore</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-widest">Explore</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#5E5E5E] hover:text-[#C9A84C] transition-colors active:scale-90 duration-300" href="#">
+<span class="material-symbols-outlined mb-1">person</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-widest">Profile</span>
+</a>
+</nav>
+</body></html>
